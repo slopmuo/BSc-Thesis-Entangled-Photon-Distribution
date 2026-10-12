@@ -25,8 +25,10 @@ This repository contains the Python scripts and analytical pipelines used to pro
 * **Statistical References:** Generates standard Gaussian distribution plots for theoretical baseline comparisons.
 
 ## Tech Stack
-* **Language:** Python
-* **Data Processing:** NumPy, SciPy (L-BFGS-B optimization for MLE)
+* **Language:** Python 3
+* **Scientific Computing & Optimization:** NumPy, SciPy (MLE & Gaussian fitting)
+* **Data Processing:** pandas, XML parsing (OTDR metadata processing)
+* **Quantum Hardware Integration:** TimeTagger (Swabian Instruments API for coincidence correlation)
 * **Visualization:** Matplotlib, Jupyter Notebook
 
 ## License
