@@ -13,16 +13,16 @@ This repository contains the Python scripts and analytical pipelines used to pro
 
 ### 2. TCSPC Data Processing (`Histogram.ipynb`)
 * **Coincidence Logic:** Processes raw time-tagged data from SPAD detectors to analyze temporal correlations.
-* **Signal Analysis:** Evaluates Coincidence-to-Accidental Ratio (CAR), Signal-to-Noise Ratio (SNR), and true coincidences by applying dynamic integration windows to experimental histograms[cite: 7]. 
-* **System Comparison:** Compares singles and coincidence rates between direct source-detector connections and long-distance fiber distribution configurations[cite: 7].
+* **Signal Analysis:** Evaluates Coincidence-to-Accidental Ratio (CAR), Signal-to-Noise Ratio (SNR), and true coincidences by applying dynamic integration windows to experimental histograms. 
+* **System Comparison:** Compares singles and coincidence rates between direct source-detector connections and long-distance fiber distribution configurations.
 
 ### 3. Optical Link Characterization (`OTDR ANALYSIS.ipynb`)
-* **Fiber Attenuation Analysis:** Processes Optical Time-Domain Reflectometer (OTDR) data at 1310 nm to break down span losses, identifying specific connector and splice attenuation events across the distribution channels[cite: 8].
-* **Performance Prediction:** Compares measured coincidence reductions against theoretical expectations derived from power meter and OTDR transmission efficiency calculations[cite: 8].
+* **Fiber Attenuation Analysis:** Processes Optical Time-Domain Reflectometer (OTDR) data at 1310 nm to break down span losses, identifying specific connector and splice attenuation events across the distribution channels.
+* **Performance Prediction:** Compares measured coincidence reductions against theoretical expectations derived from power meter and OTDR transmission efficiency calculations.
 
 ### 4. Simulations & Modeling (`PMD Evolution.ipynb`, `Gaussian.ipynb`)
-* **Decoherence Modeling:** Simulates the effect of Polarization Mode Dispersion (PMD) on the purity and concurrence of entangled states propagating through Polarization-Maintaining (PM) fibers[cite: 9].
-* **Statistical References:** Generates standard Gaussian distribution plots for theoretical baseline comparisons[cite: 6].
+* **Decoherence Modeling:** Simulates the effect of Polarization Mode Dispersion (PMD) on the purity and concurrence of entangled states propagating through Polarization-Maintaining (PM) fibers.
+* **Statistical References:** Generates standard Gaussian distribution plots for theoretical baseline comparisons.
 
 ## 🛠️ Tech Stack
 * **Language:** Python
