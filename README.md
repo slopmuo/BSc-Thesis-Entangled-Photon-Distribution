@@ -4,7 +4,7 @@ Data acquisition and processing notebooks for my Bachelor's Thesis, focused on t
 
 This repository contains the Python scripts and analytical pipelines used to process raw laboratory data, reconstruct quantum states, and evaluate the physical properties of the optical distribution link.
 
-## 🔬 Core Functionalities & Notebooks
+## Core Functionalities & Notebooks
 
 ### 1. Quantum State Tomography & Entanglement Metrics (`Tomography_QST*.ipynb`)
 * **Density Matrix Reconstruction:** Implements both analytical (Moore-Penrose pseudoinverse) and Maximum Likelihood Estimation (MLE) methods with Cholesky parameterization to ensure physical (positive semi-definite, trace 1) density matrices.
@@ -24,10 +24,10 @@ This repository contains the Python scripts and analytical pipelines used to pro
 * **Decoherence Modeling:** Simulates the effect of Polarization Mode Dispersion (PMD) on the purity and concurrence of entangled states propagating through Polarization-Maintaining (PM) fibers.
 * **Statistical References:** Generates standard Gaussian distribution plots for theoretical baseline comparisons.
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Language:** Python
 * **Data Processing:** NumPy, SciPy (L-BFGS-B optimization for MLE)
 * **Visualization:** Matplotlib, Jupyter Notebook
 
-## 📄 License
+## License
 This project is licensed under the MIT License.
